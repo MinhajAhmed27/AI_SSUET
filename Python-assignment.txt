@@ -1,0 +1,39 @@
+
+# ========================================== divisibility check of two numbers
+# a = int(input("enter first number to check \n"))
+# b = int(input("enter second number to divide with \n"))
+# if a % b == 0:
+#     print(a," is divisible by ",b)
+# else:
+#     print(a," is not completely divisible by ",b)
+
+# ========================================== copy string n times
+# string = input("enter a string")
+# copy = ''
+# n = int(input("enter how many times do a string copy"))
+# for i in range(n):
+#     copy = copy + string
+#     print(i)
+#
+# print(n," copies of string is ",copy)
+
+# ============================================== Vowel tester
+# string = input("type any letter")
+# vowels = ["a","e","i","o","u"]
+# for i in range(len(vowels)):
+#     if string == vowels[i]:
+#         print("vowel --> ",string)
+# this code requires some changes
+
+# ============================ Use the third argument of the range() function to make a list of the odd numbers from 1 to 20.
+# for i in range(1,20,2):
+#     print(i)
+
+# =========================== Make a python program that contains your nine favourite dishes in a list called foods.
+# foods = ["steak","karhai","burger","spagetti","pizza","lasagna","mandi","handi","fish&chips"]
+# print("The first three items in the list are: ")
+# print(foods[slice(0,3)],"\n")
+# print("The second three items in the list are: ")
+# print(foods[slice(3,6)],"\n")
+# print("The third three items in the list are: ")
+# print(foods[slice(6,9)])
